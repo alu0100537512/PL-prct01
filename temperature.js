@@ -21,7 +21,7 @@ function calculate() {
     }
     else {
       result = (num - 32)*5/9;
-      result = result.toFixed(1)+" Celsium"
+      result = result.toFixed(1)+" Celsius"
     }
     converted.innerHTML = result;
   }
